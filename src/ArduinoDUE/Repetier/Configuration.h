@@ -357,10 +357,10 @@ Values must be in range 1..255
 {
     "editMode": 2,
     "processor": 1,
-    "baudrate": 230400,
+    "baudrate": 250000,
     "xStepsPerMM": 80,
     "yStepsPerMM": 80,
-    "zStepsPerMM": 2600,
+    "zStepsPerMM": 2560,
     "xInvert": "1",
     "xInvertEnable": "0",
     "eepromMode": 1,
@@ -715,9 +715,14 @@ Values must be in range 1..255
                 "t": 20,
                 "r": 9386,
                 "adc": 2728.6433338066
+            },
+            {
+                 "t": -20,
+                 "r": 9500,
+                 "adc": 2739.6126760563
             }
         ],
-        "numEntries": 22
+        "numEntries": 23
     },
     "userTable1": {
         "r1": 0,
@@ -837,9 +842,14 @@ Values must be in range 1..255
                 "t": 20,
                 "r": 45000,
                 "adc": 3707.7464788732
+            },
+            {
+                "t": -20,
+                "r": 47000,
+                "adc": 3722.7272727273
             }
         ],
-        "numEntries": 23
+        "numEntries": 24
     },
     "userTable2": {
         "r1": 0,
