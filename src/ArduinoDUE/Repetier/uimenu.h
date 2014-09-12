@@ -172,7 +172,7 @@ for 2 row displays. You can add additional pages or change the default pages lik
    UI_PAGE4(ui_page1,"\005%ec/%Ec\002B%eB/%Eb\002","Z:%x2","Mul:%om Buf:%oB","%os");
    //UI_PAGE4(ui_page1,UI_TEXT_PAGE_EXTRUDER,UI_TEXT_PAGE_BED,UI_TEXT_PAGE_BUFFER,"%os");
    #else
-   UI_PAGE4(ui_page1,"\005%ec/%EcB%eB/%Eb\002","Z:%x2","Mul:%om Buf:%oB","%os");   
+   UI_PAGE4(ui_page1,"\005%ec/%Ec\002 Mul:%om","B%eB/%Eb\002 Buf:%oB","Z:%x2","%os");   
    #endif
  #else
    UI_PAGE4(ui_page1,UI_TEXT_PAGE_EXTRUDER,"Z:%x2 mm",UI_TEXT_PAGE_BUFFER,"%os");
